@@ -1126,7 +1126,7 @@ SSL_set_tlsext_status_ids(con, ids);
 			BIO_printf(bio_err,
 				   "didn't found starttls in server response,"
 				   " try anyway...\n");
-		BIO_printf(sbio,"STARTTLS\r\n");
+		BIO_printf(sbio,"STARTTLS\r\nRSET\r\n");
 		BIO_read(sbio,sbuf,BUFSIZZ);
 		}
 	else if (starttls_proto == PROTO_POP3)
