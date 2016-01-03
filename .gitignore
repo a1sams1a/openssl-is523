@@ -1,0 +1,17 @@
+*.o
+*.s
+*.a
+*.pc
+lib
+
+Makefile
+apps/CA.pl
+apps/md4.c
+apps/openssl
+crypto/buildinf.h
+crypto/opensslconf.h
+include/openssl/
+rehash.time
+test/
+tools/c_rehash
+
